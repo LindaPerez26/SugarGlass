@@ -1,0 +1,87 @@
+@import "body";
+@import "header";
+@import "nav";
+
+@mixin sizes($minWidth, $minHeight) {
+    height: $minHeight;
+    width: $minWidth;
+}
+
+.container-fluid{
+        padding: 0 !important;
+}
+
+.img{
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @include sizes (400px, 500px);
+    
+        &:hover{
+            opacity: 0.8;
+            cursor: pointer;
+        }
+
+        &.imgUno{
+            background-image: url("../img/fotoprincipal1.jpg");
+        }
+        
+        &.imgDos{
+            background-image: url("../img/fotoprincipal2.jpg");
+        }
+        
+        &.imgTres{
+            background-image: url("../img/fotoprincipal3.jpg");
+        }
+}
+
+.social{    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fa-instagram{
+    @extend .social;
+}
+
+.insta{
+    @extend .social;
+}
+.face{
+    @extend .social;
+}
+.whatsApp{
+    @extend .social;
+}
+
+.cajas{
+    float: left;
+    background-color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0 !important;
+    border: 0px solid #000;
+    box-sizing: border-box;
+    .caja-i{
+        padding: 50px;
+    }
+}
+
+.img-receta{
+    min-height: 540px !important;
+
+        &.uno{
+            background-image: url("../img/recetas/cupcakes.jpg");
+            background-position: center;
+            background-size:cover;
+        }
+        
+        &.dos{
+            background-image: url("../img/recetas/cookies.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+}
+
+

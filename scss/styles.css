@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5 {
+  overflow: hidden;
+  white-space: initial;
+}
+
+header {
+  background-color: rgba(242, 165, 173, 0.685);
+}
+
+header .my-0 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+  color: #fff;
+}
+
+nav {
+  overflow: hidden;
+}
+
+nav .text-d {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+nav .text-d:hover {
+  border: solid 1px white;
+}
+
+nav .box-color {
+  background-color: rgba(242, 165, 173, 0.685) !important;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 400px;
+}
+
+.img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.img.imgUno {
+  background-image: url("../img/fotoprincipal1.jpg");
+}
+
+.img.imgDos {
+  background-image: url("../img/fotoprincipal2.jpg");
+}
+
+.img.imgTres {
+  background-image: url("../img/fotoprincipal3.jpg");
+}
+
+.social, .fa-instagram, .insta, .face, .whatsApp {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cajas {
+  float: left;
+  background-color: #fff;
+  width: 100%;
+  margin: 0;
+  padding: 0 !important;
+  border: 0px solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cajas .caja-i {
+  padding: 50px;
+}
+
+.img-receta {
+  min-height: 540px !important;
+}
+
+.img-receta.uno {
+  background-image: url("../img/recetas/cupcakes.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.img-receta.dos {
+  background-image: url("../img/recetas/cookies.jpg");
+  background-position: center;
+  background-size: cover;
+}
+/*# sourceMappingURL=styles.css.map */

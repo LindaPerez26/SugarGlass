@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="scss/styles.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/muffin.png" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <title>SugarGlass Pastelería</title>
+</head>
+
+<body>
+
+    <header> <!--Menú-->
+        <div class="navegador d-flex flex-column flex-md-row align-items-center p-3 px-md-4">
+            <h5 class="my-0 mr-md-auto font-weight-normal">SugarGlass Pastelería</h5>
+                <nav class="my-2 my-md-0 mr-md-3">
+                    <a class="p-2 text-d" href="index.html">INICIO</a>
+                    <a class="p-2 text-d" href="pages/recetas.html">RECETAS</a>
+                    <a class="p-2 text-d" href="pages/formulario.html">CONTACTO</a>
+                </nav>
+        </div>
+    </header>
+    
+    <!--Inicio del Carrusel de Imágenes-->
+    <div id="carousel-suggar" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-suggar" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-suggar" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="./img/banner1.png" class="d-block w-100" alt="Imagen Banner 2">
+            </div>
+            <div class="carousel-item">
+            <img src="./img/banner2.png" class="d-block w-100" alt="Imagen Banner 2">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel-suggar" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-suggar" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!--Fin del Carrusel de Imágenes-->
+
+    <main class="container-fluid" role="main">
+        <div class="row">
+
+            <!--Sección de Imágenes-->
+            <div class="col-md-12">
+
+                <h3 class="tituloMain__fontdfamily tituloMain__color tituloMain__size tituloMain__position">
+                    Prepárate para compartir momentos increíbles!
+                </h3>
+
+                <div class="d-flex flex-wrap justify-content-around">
+                    <div class="p-2">
+                        <div class="img imgUno">                            
+                        </div>
+                    </div>
+
+                    <div class="p-2">
+                        <div class="img imgDos">
+                        </div>
+                    </div>
+
+                    <div class="p-2">
+                        <div class="img imgTres">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--Cierre de caja-->
+
+            <div class="col-md-12">
+                <!--Inicio del Texto Intermedio-->
+                <div class="textocita__posición textocita__bg textocita__color">
+                    <h3 class="t-cita__">Somos un emprendimiento dedicado a la Pastelería Creativa!</h3>
+                    <p class="p-cita">Realizamos Tortas diseñadas y personalizadas para cada cliente. Además, dictamos cursos de nivel inicial hasta nivel avanzado.</p>
+                </div>
+            </div>    
+
+            <!--Sección de Imágenes-->
+            <div class="col-md-12 trd-section">
+                <div class="d-flex flex-wrap justify-content-around">
+                    <div class="p-2">
+                        <div class="imagenCaja">
+                        </div>
+                    </div>
+
+                    <div class="p-2 text-section">
+
+                        <h3 class="Historia__Font Historia__size">Quienes Somos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eum cumque mollitia excepturi labore quam natus soluta voluptate nostrum vero, quia aspernatur quaerat nisi. Quam facilis incidunt accusantium dignissimos fuga.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eum cumque mollitia excepturi labore quam natus soluta voluptate nostrum vero, quia aspernatur quaerat nisi. Quam facilis incidunt accusantium dignissimos fuga.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <!--Cierre de caja-->
+
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="d-flex justify-content-center bd-highlight mb-3 text-center">
+            <div class="col-6 flex-fill justify-content-center">
+                <ul class="social">
+                    <li class="l-social">
+                        <a href="https://www.instagram.com/sugarglass/"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li class="l-social">
+                        <a href="https://www.facebook.com/Sugarglasspasteleria"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li class="l-social">
+                        <a href="#"><i class="bi bi-whatsapp"></i></a>
+                    </li>
+                </ul>
+
+                <h5 class="text-uppercase">HORARIO DE ATENCIÓN</h5>
+                <p>Lunes a Sábado 09:00 a 19:30 hrs</p>
+    
+            </div>
+            <div class="col-6 flex-fill">
+                <!-- Content -->
+                <h5 class="text-m-top text-uppercase">DONDE ESTAMOS UBICADOS</h5>
+                <p>Almagro, Ciudad Autónoma de Buenos Aires, Argentina</p>
+                <h5>E-Mail</h5>
+                <a class="mail" href="mailto:sugarglassreposteria@gmail.com">sugarglassreposteria@gmail.com</a>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-2">© 2021 Copyright
+            <p>Desarrollado por Linda Pérez</p>
+        </div>
+    </footer>
+</body>
+</html>
