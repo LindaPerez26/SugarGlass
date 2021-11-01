@@ -102,4 +102,12 @@ nav .box-color {
   background-position: center;
   background-size: cover;
 }
+
+.modal-header {
+  background-color: rgba(242, 165, 173, 0.685);
+}
+
+.modal-header .modal-title {
+  color: #fff;
+}
 /*# sourceMappingURL=styles.css.map */
