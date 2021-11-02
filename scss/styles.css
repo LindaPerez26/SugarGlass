@@ -110,4 +110,26 @@ nav .box-color {
 .modal-header .modal-title {
   color: #fff;
 }
+
+.bi-lg {
+  font-size: 16px !important;
+}
+
+.bi-a {
+  padding: 7px;
+  border-radius: 5px !important;
+  color: #fff;
+  min-width: 150px;
+  background-color: green !important;
+  text-decoration: none !important;
+}
+
+.bi-a:hover {
+  color: #fff !important;
+}
+
+.btn-dwn {
+  min-width: 400px;
+  border-radius: 0  0 10px 10px !important;
+}
 /*# sourceMappingURL=styles.css.map */
