@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -38,6 +39,81 @@ nav .box-color {
   background-color: rgba(242, 165, 173, 0.685) !important;
 }
 
+footer {
+  font-size: 16px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 20px;
+  background-color: rgba(242, 165, 173, 0.685);
+}
+
+footer .text-uppercase {
+  text-transform: uppercase !important;
+  text-align: center;
+}
+
+footer .mail {
+  text-decoration: none;
+  color: black;
+}
+
+footer .footer-copyright {
+  background: -webkit-gradient(linear, left top, right top, color-stop(19%, #f2a5c0), color-stop(100%, #a5ddf2), to(#f2a5bd));
+  background: linear-gradient(90deg, #f2a5c0 19%, #a5ddf2 100%, #f2a5bd 100%);
+}
+
+footer .footer-copyright a {
+  color: black;
+}
+
+.social, .fa-instagram, .insta, .face, .whatsApp {
+  font-size: 50px;
+  margin-top: 50px;
+  text-decoration: none !important;
+}
+
+.social .l-social, .fa-instagram .l-social, .insta .l-social, .face .l-social, .whatsApp .l-social {
+  display: inline-block;
+  -ms-flex-line-pack: center !important;
+      align-content: center !important;
+}
+
+.social .bi-facebook, .fa-instagram .bi-facebook, .insta .bi-facebook, .face .bi-facebook, .whatsApp .bi-facebook {
+  color: #3A5795 !important;
+}
+
+.social .bi-facebook:hover, .fa-instagram .bi-facebook:hover, .insta .bi-facebook:hover, .face .bi-facebook:hover, .whatsApp .bi-facebook:hover {
+  color: #fff !important;
+}
+
+.social .bi-instagram, .fa-instagram .bi-instagram, .insta .bi-instagram, .face .bi-instagram, .whatsApp .bi-instagram {
+  color: #d6249f !important;
+}
+
+.social .bi-instagram:hover, .fa-instagram .bi-instagram:hover, .insta .bi-instagram:hover, .face .bi-instagram:hover, .whatsApp .bi-instagram:hover {
+  color: #fff !important;
+}
+
+.social .bi-whatsapp, .fa-instagram .bi-whatsapp, .insta .bi-whatsapp, .face .bi-whatsapp, .whatsApp .bi-whatsapp {
+  color: #00A478 !important;
+}
+
+.social .bi-whatsapp:hover, .fa-instagram .bi-whatsapp:hover, .insta .bi-whatsapp:hover, .face .bi-whatsapp:hover, .whatsApp .bi-whatsapp:hover {
+  color: #fff !important;
+}
+
+.social, .fa-instagram, .insta, .face, .whatsApp {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .container-fluid {
   padding: 0 !important;
 }
@@ -65,11 +141,6 @@ nav .box-color {
 
 .img.imgTres {
   background-image: url("../img/fotoprincipal3.jpg");
-}
-
-.social, .fa-instagram, .insta, .face, .whatsApp {
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .cajas {
@@ -131,5 +202,96 @@ nav .box-color {
 .btn-dwn {
   min-width: 400px;
   border-radius: 0  0 10px 10px !important;
+}
+
+.col-md-6 {
+  text-align: left;
+}
+
+/*BEM 1*/
+.tituloMain__fontdfamily {
+  font-family: 'Dancing Script', cursive;
+}
+
+/*BEM 2*/
+.tituloMain__color {
+  color: #56d1fa;
+}
+
+/*BEM 3*/
+.tituloMain__size {
+  font-size: 40px;
+}
+
+/*BEM 4*/
+.tituloMain__position {
+  text-align: center;
+  font-size: 40px;
+  padding: 2%;
+}
+
+/*BEM 5*/
+.textocita__posición {
+  text-align: center;
+  margin: 80px 0 10px 0;
+  padding: 80px 10px 80px 10px;
+}
+
+/*BEM 6*/
+.textocita__bg {
+  background-color: rgba(242, 165, 173, 0.685);
+}
+
+/*BEM 7*/
+.textocita__color {
+  color: #fff;
+}
+
+/*BEM 8*/
+.Historia__Font {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*BEM 9*/
+.Historia__size {
+  font-size: 50px;
+}
+
+/*BEM NUEVO PARA SECCIÓN RECETAS*/
+.tituloReceta__padding {
+  padding-bottom: 30px;
+}
+
+.tituloReceta__color {
+  color: #56d1fa;
+}
+
+.tituloReceta__position {
+  text-align: center;
+}
+
+.tituloReceta__font {
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+}
+
+.text-recetas {
+  font-size: 19px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.text-recetas .leerMas {
+  font-size: 16px;
+}
+
+.text-recetas .leerMas:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+.separador {
+  min-height: 100px;
+  width: 100%;
+  background-color: #fff;
 }
 /*# sourceMappingURL=styles.css.map */

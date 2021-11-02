@@ -1,6 +1,8 @@
 @import "body";
 @import "header";
 @import "nav";
+@import "footer";
+@import "social";
 
 @mixin sizes($minWidth, $minHeight) {
     height: $minHeight;
@@ -34,25 +36,6 @@
         &.imgTres{
             background-image: url("../img/fotoprincipal3.jpg");
         }
-}
-
-.social{    
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.fa-instagram{
-    @extend .social;
-}
-
-.insta{
-    @extend .social;
-}
-.face{
-    @extend .social;
-}
-.whatsApp{
-    @extend .social;
 }
 
 .cajas{
@@ -92,13 +75,11 @@
         }
 }
 
-
 .bi-lg{
 
     font-size: 16px !important;
 
 }
-
 
 .bi-a{
     padding: 7px;
@@ -116,4 +97,91 @@
 .btn-dwn{
     min-width: 400px;
     border-radius: 0  0 10px 10px !important;
+}
+
+.col-md-6{
+    text-align: left;
+}
+
+/*BEM 1*/
+.tituloMain__fontdfamily{
+    font-family: 'Dancing Script', cursive;
+}
+
+/*BEM 2*/
+.tituloMain__color{
+    color:rgb(86, 209, 250);
+}
+
+/*BEM 3*/
+.tituloMain__size{
+    font-size: 40px;
+}
+
+/*BEM 4*/
+.tituloMain__position{
+    text-align: center;
+    font-size: 40px;
+    padding: 2%
+}
+
+/*BEM 5*/
+.textocita__posición{ 
+text-align:center;
+margin: 80px 0 10px 0;
+padding: 80px 10px 80px 10px;
+}       
+
+/*BEM 6*/
+.textocita__bg{
+background-color: rgba(242, 165, 173, 0.685);
+}
+
+/*BEM 7*/
+.textocita__color{
+color: #fff;
+}
+
+/*BEM 8*/
+.Historia__Font{
+font-family:'Open Sans', sans-serif;
+}
+
+/*BEM 9*/
+.Historia__size{
+font-size: 50px;
+}
+
+/*BEM NUEVO PARA SECCIÓN RECETAS*/
+.tituloReceta__padding{
+    padding-bottom: 30px;
+}
+
+.tituloReceta__color{
+    color: rgb(86, 209, 250);
+}
+.tituloReceta__position{
+    text-align: center;
+}
+.tituloReceta__font{
+    font-family:'Dancing Script', cursive;
+    font-size: 60px;
+}
+
+.text-recetas{
+    font-size: 19px;
+    font-family:'Open Sans', sans-serif;
+        .leerMas{
+            font-size: 16px;
+        }
+        .leerMas:hover{
+            color: black;
+            font-weight:bolder;
+        }
+}
+
+.separador{
+    min-height: 100px;
+    width: 100%;
+    background-color: #fff;
 }

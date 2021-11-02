@@ -1,0 +1,23 @@
+footer{
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color:rgba(242, 165, 173, 0.685);
+        .text-uppercase {
+            text-transform: uppercase!important;
+            text-align: center;
+        }
+        .mail{
+            text-decoration: none;
+            color: black;
+        }
+        .footer-copyright{
+            background: linear-gradient(90deg, rgba(242,165,192,1) 19%, rgba(165,221,242,1) 100%, rgba(242,165,189,1) 100%);
+            }
+        .footer-copyright a{
+            color: black;
+        }
+}

@@ -1,0 +1,50 @@
+.social{
+    font-size: 50px;
+    margin-top: 50px;
+    text-decoration: none !important;
+        .l-social{
+            display: inline-block;
+            align-content: center !important;
+        }
+            .bi-facebook{
+                color: #3A5795 !important;
+            }
+            .bi-facebook:hover{
+                color: #fff !important;
+            }
+            
+            .bi-instagram{
+                color: #d6249f !important;
+            }
+            
+            .bi-instagram:hover{
+                color: #fff !important;
+            }
+            
+            .bi-whatsapp{
+                color: #00A478 !important;
+            }
+            
+            .bi-whatsapp:hover{
+                color: #fff !important;
+            }
+}
+
+.social{    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fa-instagram{
+    @extend .social;
+}
+
+.insta{
+    @extend .social;
+}
+.face{
+    @extend .social;
+}
+.whatsApp{
+    @extend .social;
+}
