@@ -9,6 +9,8 @@
 
 - 📫 How to reach me **lcperez2690@gmail.com**
 
+- 💻 View the web demo here 👉 https://lindaperez26.github.io/SugarGlass/
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/lindaperezr" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="lindaperezr" height="30" width="40" /></a>
