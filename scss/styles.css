@@ -249,7 +249,8 @@ footer .footer-copyright a {
 
 /*BEM 8*/
 .Historia__Font {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Dancing Script', cursive;
+  color: #56d1fa;
 }
 
 /*BEM 9*/
@@ -293,5 +294,27 @@ footer .footer-copyright a {
   min-height: 100px;
   width: 100%;
   background-color: #fff;
+}
+
+.titutloGaleria {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #56d1fa;
+}
+
+#galeria .col-lg-4 {
+  padding: 30px;
+  margin: 0 !important;
+}
+
+#galeria img {
+  width: 100%;
+}
+
+#galeria img:hover {
+  border: 5px solid #f7f7f7;
+  border-color: rgba(86, 209, 250, 0.363);
 }
 /*# sourceMappingURL=styles.css.map */

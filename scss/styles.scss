@@ -144,7 +144,8 @@ color: #fff;
 
 /*BEM 8*/
 .Historia__Font{
-font-family:'Open Sans', sans-serif;
+font-family:'Dancing Script', cursive;
+color: rgb(86, 209, 250);
 }
 
 /*BEM 9*/
@@ -184,4 +185,31 @@ font-size: 50px;
     min-height: 100px;
     width: 100%;
     background-color: #fff;
+}
+
+.titutloGaleria{
+    text-align:center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color:rgb(86, 209, 250);
+}
+
+#galeria{
+
+    & .col-lg-4{
+        padding: 30px;
+        margin: 0 !important;
+    }
+
+    & img{
+        width: 100%;
+
+        &:hover{
+            border: 5px solid #f7f7f7;
+            border-color:rgba(86, 209, 250, 0.363);
+        }
+    }
+
+
 }
