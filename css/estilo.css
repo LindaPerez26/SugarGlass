@@ -86,7 +86,7 @@ main{
 @media only screen and (max-width: 600px) {
     .t-cita{
         font-size: 25px;
-        font-family: 'Merienda', cursive; !important;
+        font-family: 'Merienda', cursive !important;
     }
 
     .imagenCaja{
@@ -170,7 +170,7 @@ main{
 @media only screen and (min-width: 600px) {
     .t-cita{
         font-size: 25px;
-        font-family: 'Merienda', cursive; !important;
+        font-family: 'Merienda', cursive !important;
     }
 
     .Historia__size{
@@ -209,7 +209,7 @@ main{
     
     .t-cita{
         font-size: 30px;
-        font-family: 'Merienda', cursive; !important;
+        font-family: 'Merienda', cursive !important;
     }
 
     .tituloReceta__font{
@@ -227,7 +227,7 @@ main{
 @media only screen and (min-width: 992px) {
     .t-cita{
         font-size: 40px;
-        font-family: 'Merienda', cursive; !important; 
+        font-family: 'Merienda', cursive !important; 
     }
 
     .tituloReceta__font{
@@ -244,7 +244,7 @@ main{
 @media only screen and (min-width: 1200px) {
     .t-cita{
         font-size: 50px;
-        font-family: 'Merienda', cursive; !important;
+        font-family: 'Merienda', cursive !important;
     }
 
     .tituloReceta__font{
