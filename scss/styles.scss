@@ -105,7 +105,7 @@
 
 /*BEM 1*/
 .tituloMain__fontdfamily{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Merienda', cursive;
 }
 
 /*BEM 2*/
@@ -144,7 +144,7 @@ color: #fff;
 
 /*BEM 8*/
 .Historia__Font{
-font-family:'Dancing Script', cursive;
+font-family:'Merienda', cursive;
 color: rgb(86, 209, 250);
 }
 
@@ -165,7 +165,7 @@ font-size: 50px;
     text-align: center;
 }
 .tituloReceta__font{
-    font-family:'Dancing Script', cursive;
+    font-family:'Merienda', cursive;
     font-size: 60px;
 }
 
@@ -181,15 +181,42 @@ font-size: 50px;
         }
 }
 
+/*Inicio del separador de recetas animado*/
 .separador{
-    min-height: 100px;
     width: 100%;
-    background-color: #fff;
+    background: rgba(1, 15, 30, 0.1);
+    height: 1px;
+    overflow: hidden;
+    position: relative;
 }
+
+.separador::before{
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-name: separador-animacion;
+    background: rgb(242, 165, 173);
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    width: 80px;
+}
+
+@keyframes separador-animacion {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(1440px);
+    }
+}
+/*Fin del separador de recetas animado*/
+
 
 .titutloGaleria{
     text-align:center;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Merienda', cursive;
     font-size: 40px;
     margin-bottom: 20px;
     color:rgb(86, 209, 250);
@@ -210,6 +237,5 @@ font-size: 50px;
             border-color:rgba(86, 209, 250, 0.363);
         }
     }
-
-
 }
+

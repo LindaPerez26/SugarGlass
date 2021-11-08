@@ -74,8 +74,8 @@ footer .footer-copyright a {
 }
 
 .social, .fa-instagram, .insta, .face, .whatsApp {
-  font-size: 50px;
-  margin-top: 50px;
+  font-size: 25px;
+  margin-top: 25px;
   text-decoration: none !important;
 }
 
@@ -210,7 +210,7 @@ footer .footer-copyright a {
 
 /*BEM 1*/
 .tituloMain__fontdfamily {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Merienda', cursive;
 }
 
 /*BEM 2*/
@@ -249,7 +249,7 @@ footer .footer-copyright a {
 
 /*BEM 8*/
 .Historia__Font {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Merienda', cursive;
   color: #56d1fa;
 }
 
@@ -272,7 +272,7 @@ footer .footer-copyright a {
 }
 
 .tituloReceta__font {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Merienda', cursive;
   font-size: 60px;
 }
 
@@ -290,15 +290,58 @@ footer .footer-copyright a {
   font-weight: bolder;
 }
 
+/*Inicio del separador de recetas animado*/
 .separador {
-  min-height: 100px;
   width: 100%;
-  background-color: #fff;
+  background: rgba(1, 15, 30, 0.1);
+  height: 1px;
+  overflow: hidden;
+  position: relative;
 }
 
+.separador::before {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: separador-animacion;
+          animation-name: separador-animacion;
+  background: #f2a5ad;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  width: 80px;
+}
+
+@-webkit-keyframes separador-animacion {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(1440px);
+            transform: translateX(1440px);
+  }
+}
+
+@keyframes separador-animacion {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(1440px);
+            transform: translateX(1440px);
+  }
+}
+
+/*Fin del separador de recetas animado*/
 .titutloGaleria {
   text-align: center;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Merienda', cursive;
   font-size: 40px;
   margin-bottom: 20px;
   color: #56d1fa;
