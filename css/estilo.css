@@ -2,11 +2,24 @@
     background-color: rgba(242, 165, 173, 0.685) !important;
 }
 
+.navbar-expand-lg{
+    border: 0px !important;
+    padding: 0px !important;
+}
+
 /*Estilos para el Main*/
 main{
     grid-area: main;
     text-align: center;
     font-family:'Open Sans', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: rgba(214, 111, 121, 0.685) !important;
+}
+
+.active{
+    background-color: rgba(214, 111, 121, 0.685) !important;
 }
 
 /*style sección nosotros*/
@@ -28,7 +41,10 @@ main{
     min-height: 530px; 
 }  
 
-
+.animate__heartBeat:hover{
+    animation: 0.1s;
+    
+}
 
 .p-2{
     padding: .5rem !important;
@@ -190,9 +206,6 @@ main{
         background-color:#fff !important;
     }
 
-    .text-d:hover{
-        border-bottom: solid 1px rgb(255, 255, 255);                
-        }
 }
 
  /* Dispositivos pequeños (Tablets Verticales, celulares grandes, 600px y más) */
@@ -284,11 +297,6 @@ main{
         background-color:#fff !important;
     }
     
-    .text-d:hover{
-        border-right: solid 1px rgb(255, 255, 255);
-        border-left: solid 1px rgb(255, 255, 255);
-        }
-
 
 }
 
@@ -308,10 +316,6 @@ main{
         padding: 15px 0 20px 0;
     }
 
-    .text-d:hover{
-        border-right: solid 1px rgb(255, 255, 255);
-        border-left: solid 1px rgb(255, 255, 255);
-        }
 }
 
  /* Dispositivos extra grandes (computadoras portátiles y de escritorio grandes, 1200px y más) */
@@ -329,9 +333,4 @@ main{
     .tituloReceta__padding{
         padding: 15px 0 20px 0;
     }
-
-    .text-d:hover{
-        border-right: solid 1px rgb(255, 255, 255);
-        border-left: solid 1px rgb(255, 255, 255);
-        }
 } 

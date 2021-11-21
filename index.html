@@ -14,6 +14,11 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+
     <head>
         <link rel="stylesheet" href="css/imagehover.min.css">
     </head>
@@ -31,13 +36,14 @@
 <body>
         <!--Inicio del Nav-->  
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="logoHome navbar-brand" href="index.html">SugarGlass Pastelería</a>
+            <a class="logoHome-top navbar-brand" href="index.html">SugarGlass Pastelería</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link p-2 text-d" href="pages/recetas.html">RECETAS</a>
+                <a class="nav-link p-2 text-d active" href="../index.html" >INICIO</a>
+                <a class="nav-link p-2 text-d" href="pages/recetas.html"><span class="nav-link-name">RECETAS</span></a>
                 <a class="nav-link p-2 text-d" href="pages/galeria.html">PORTAFOLIO</a>
                 <a class="nav-link p-2 text-d" href="pages/formulario.html">CONTACTO</a>
             </div>
@@ -85,7 +91,7 @@
                 <!--Contenedor de la Primera imagen-->
                 <div class="d-flex flex-wrap justify-content-around">
                     <div class="boxImg p-2">
-                        <div class="img imgUno">                           
+                        <div class="img imgUno" data-toggle="modal" data-target="#Modal1">                           
                         </div>
                             <!-- Button trigger modal -->
                             <button type="button" class="btn btn-info btn-dwn" data-toggle="modal" data-target="#Modal1">
@@ -118,7 +124,7 @@
 
                     <!--Contenedor de la Segunda imagen-->
                     <div class="p-2">
-                        <div class="img imgDos">
+                        <div class="img imgDos" data-toggle="modal" data-target="#Modal2">
                         </div>
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-info btn-dwn" data-toggle="modal" data-target="#Modal2">
@@ -151,7 +157,7 @@
 
                     <!--Contenedor de la Tercera imagen-->
                     <div class="p-2">
-                        <div class="img imgTres">
+                        <div class="img imgTres" data-toggle="modal" data-target="#Modal3">
                         </div>
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-info btn-dwn" data-toggle="modal" data-target="#Modal3">
@@ -189,7 +195,7 @@
             <div class="col-md-12">
                 <!--Inicio del Texto Intermedio-->
                 <div class="textocita__posición textocita__bg textocita__color">
-                    <h3 class="t-cita__">Somos un emprendimiento dedicado a la Pastelería Creativa!</h3>
+                    <h3 class="t-cita__ animate__heartBeat">Somos un emprendimiento dedicado a la Pastelería Creativa!</h3>
                     <p class="p-cita">Realizamos Tortas diseñadas y personalizadas para cada cliente. Además, dictamos cursos de nivel inicial hasta nivel avanzado.</p>
                 </div>
             </div>    
