@@ -22,6 +22,16 @@ main{
     background-color: rgba(214, 111, 121, 0.685) !important;
 }
 
+.linkPortafolio{
+    text-decoration: none;
+    text-decoration:underline;
+    color: #fff;
+}
+
+.linkPortafolio:hover{
+    color: rgb(16, 112, 145);
+}
+
 /*style sección nosotros*/
 .cajaPrincipal{
     display: flex;
