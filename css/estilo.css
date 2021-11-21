@@ -1,5 +1,5 @@
-nav{
-    overflow: hidden;
+.navbar{
+    background-color: rgba(242, 165, 173, 0.685) !important;
 }
 
 /*Estilos para el Main*/
@@ -24,9 +24,11 @@ main{
     background-image: url(../img/sobremi1.jpg);
     background-size:contain;
     background-repeat: no-repeat;
-    min-width: 800px;
-    min-height: 600px;
+    min-width: 700px;
+    min-height: 530px; 
 }  
+
+
 
 .p-2{
     padding: .5rem !important;
@@ -82,6 +84,11 @@ main{
     }
 } 
 
+.bg-foot{
+    background-color: rgba(255, 117, 131, 0.685);
+}
+
+
  /* Dispositivos muy pequeños (celulares, 600px y menos) */
 @media only screen and (max-width: 600px) {
     .t-cita{
@@ -92,6 +99,7 @@ main{
     .imagenCaja{
         margin-top: -11px;
         min-height: 252px;
+        margin-left: 8px;
     }
 
     .p-cita{
@@ -126,6 +134,7 @@ main{
 
     .img{
         width: 360px;
+        height: 360px;
     }
 
     .btn-dwn{
@@ -164,6 +173,26 @@ main{
     .img-receta{
         min-height: 300px !important;
     }
+
+    .navbar-brand{
+        color: #fff !important;
+    }
+    
+    .navbar-light .navbar-toggler{
+        border: solid 2px white !important;
+    }
+    
+    .navbar-toggler-icon{
+        background-color:#fff !important;
+    }
+    
+    .navbar-toggler{
+        background-color:#fff !important;
+    }
+
+    .text-d:hover{
+        border-bottom: solid 1px rgb(255, 255, 255);                
+        }
 }
 
  /* Dispositivos pequeños (Tablets Verticales, celulares grandes, 600px y más) */
@@ -202,7 +231,25 @@ main{
         padding: 15px 0 20px 0;
     }
 
+    .navbar-brand{
+        color: #fff !important;
+    }
+    
+    .navbar-light .navbar-toggler{
+        border: solid 2px white !important;
+    }
+    
+    .navbar-toggler-icon{
+        background-color:#fff !important;
+    }
+    
+    .navbar-toggler{
+        background-color:#fff !important;
+    }
+
+
 }
+
 
  /* Dispositivos medianos (Tablets horizontales, 768px y más) */
 @media only screen and (min-width: 768px) {
@@ -221,6 +268,28 @@ main{
         padding: 15px 0 20px 0;
     }
 
+    .navbar-brand{
+        color: #fff !important;
+    }
+    
+    .navbar-light .navbar-toggler{
+        border: solid 2px white !important;
+    }
+    
+    .navbar-toggler-icon{
+        background-color:#fff !important;
+    }
+    
+    .navbar-toggler{
+        background-color:#fff !important;
+    }
+    
+    .text-d:hover{
+        border-right: solid 1px rgb(255, 255, 255);
+        border-left: solid 1px rgb(255, 255, 255);
+        }
+
+
 }
 
  /* Dispositivos grandes (laptops / computadoras de escritorio 992px y más) */
@@ -238,6 +307,11 @@ main{
     .tituloReceta__padding{
         padding: 15px 0 20px 0;
     }
+
+    .text-d:hover{
+        border-right: solid 1px rgb(255, 255, 255);
+        border-left: solid 1px rgb(255, 255, 255);
+        }
 }
 
  /* Dispositivos extra grandes (computadoras portátiles y de escritorio grandes, 1200px y más) */
@@ -255,4 +329,9 @@ main{
     .tituloReceta__padding{
         padding: 15px 0 20px 0;
     }
+
+    .text-d:hover{
+        border-right: solid 1px rgb(255, 255, 255);
+        border-left: solid 1px rgb(255, 255, 255);
+        }
 } 

@@ -14,6 +14,10 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 
+    <head>
+        <link rel="stylesheet" href="css/imagehover.min.css">
+    </head>
+
     <link rel="stylesheet" href="scss/styles.css">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="shortcut icon" href="img/muffin.png" />
@@ -25,17 +29,22 @@
 </head>
 
 <body>
+        <!--Inicio del Nav-->  
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="logoHome navbar-brand" href="index.html">SugarGlass Pastelería</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link p-2 text-d" href="pages/recetas.html">RECETAS</a>
+                <a class="nav-link p-2 text-d" href="pages/galeria.html">PORTAFOLIO</a>
+                <a class="nav-link p-2 text-d" href="pages/formulario.html">CONTACTO</a>
+            </div>
+            </div>
+        </nav>
+        
 
-    <header> <!--Menú-->
-        <div class="navegador d-flex flex-column flex-md-row align-items-center p-3 px-md-4">
-            <a class="logoHome my-0 mr-md-auto font-weight-normal" href="index.html">SugarGlass Pastelería</a>
-                <nav class="my-2 my-md-0 mr-md-3">
-                    <a class="p-2 text-d" href="index.html">INICIO</a>
-                    <a class="p-2 text-d" href="pages/recetas.html">RECETAS</a>
-                    <a class="p-2 text-d" href="pages/galeria.html">PORTAFOLIO</a>
-                    <a class="p-2 text-d" href="pages/formulario.html">CONTACTO</a>
-                </nav>
-        </div>
     </header>
     
     <!--Inicio del Carrusel de Imágenes-->
@@ -191,13 +200,12 @@
                     <div class="p-2">
                         <div class="imagenCaja">
                         </div>
-                    </div>
+                    </div>            
 
                     <div class="p-2 text-section">
 
-                        <h3 class="Historia__Font Historia__size">Un poco sobre mi!</h3>
-                        <p>Mi nombra es Linda de Umanchuk, comencé mi emprendimiento desde Octubre 2017 con una panza de 8 meses de embarazo, siempre me había gustado la idea de dedicarme a la pastelería y como había quedado sin empleo vi el momento perfecto para empezarlo.</p>
-                        <p>Estudié en la Escuela de Arte Gastronomico de Buenos Aires y me especialicé en tortas decoradas y productos de Pastelería para festejos, y en el camino descubrí que me gustaba enseñar a otros muchas de las cosas que aprendí en este camino, y fue cuando abrí el blog de recetas y empecé a brindar cursos más especializados desde nivel inicial hasta avanzada.</p>
+                        <h3 class="Historia__Font Historia__size">Un poco sobre mi!</h3><hr>
+                        <span class="textoHistoria">Estudié en la Escuela de Arte Gastronomico de Buenos Aires y me especialicé en tortas decoradas y productos de Pastelería para festejos, y en el camino descubrí que me gustaba enseñar a otros muchas de las cosas que aprendí en este camino, y fue cuando abrí el blog de recetas y empecé a brindar cursos más especializados desde nivel inicial hasta avanzada.</span>
                         
                     </div>
                 </div>
@@ -207,40 +215,46 @@
         </div>
     </main>
     
-    <!-- Footer -->
-    <footer class="footer">
-
-        <div class="d-flex justify-content-center bd-highlight mb-3 text-center">
-            <div class="col-6 flex-fill justify-content-center">
-                <ul class="social">
-                    <li class="l-social">
-                        <a href="https://www.instagram.com/sugarglass/"><i class="bi bi-instagram"></i></a>
-                    </li>
-                    <li class="l-social">
-                        <a href="https://www.facebook.com/Sugarglasspasteleria"><i class="bi bi-facebook"></i></a>
-                    </li>
-                    <li class="l-social">
-                        <a href="https://wa.link/gviqww"><i class="bi bi-whatsapp"></i></a>
-                    </li>
-                </ul>
-
-                <h5 class="text-uppercase">HORARIO DE ATENCIÓN</h5>
-                <p>Lunes a Sábado 09:00 a 19:30 hrs</p>
+    <footer class="bg-foot text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/Sugarglasspasteleria" target="_blank" role="button"
+            ><i class="bi bi-facebook"></i
+            ></a>
     
-            </div>
-            <div class="col-6 flex-fill">
-                <!-- Content -->
-                <h5 class="text-m-top text-uppercase">DONDE ESTAMOS UBICADOS</h5>
-                <p>Almagro, Ciudad Autónoma de Buenos Aires, Argentina</p>
-                <h5>E-Mail</h5>
-                <a class="mail" href="mailto:sugarglassreposteria@gmail.com">sugarglassreposteria@gmail.com</a>
-            </div>
-        </div>
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/sugarglass/" target="_blank" role="button"
+            ><i class="bi bi-instagram"></i
+            ></a>
+    
+            <!-- WhatsApp -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://wa.link/gviqww" target="_blank" role="button"
+            ><i class="bi bi-whatsapp"></i
+            ></a>
 
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-2">© 2021 Copyright
-            <h6>Coded with Love by <a href="https://www.linkedin.com/in/lindaperezr/" target="_blank">Linda Pérez</a></h6>
+            <!-- Mail -->
+            <a class="btn btn-outline-light btn-floating m-1" href="mailto:sugarglassreposteria@gmail.com" role="button"
+            ><i class="bi bi-envelope"></i
+            ></a>
+
+            <!-- Maps -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://goo.gl/maps/JrEhaH8PBpPHthYDA" target="_blank" role="button"
+            ><i class="bi bi-geo-alt-fill"></i></i
+            ></a>
+
+        <!-- Section: Social media -->
         </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2021 Copyright | 
+        Coded with Love by <a class="text-white" href="https://www.linkedin.com/in/lindaperezr/" target="_blank">Linda Pérez</a>
+        </div>
+        <!-- Copyright -->
     </footer>
 
     <!-- Latest compiled and minified CSS -->
@@ -250,6 +264,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-
+    <script src="https://kit.fontawesome.com/1598167e19.js" crossorigin="anonymous"></script>
 </body>
 </html>

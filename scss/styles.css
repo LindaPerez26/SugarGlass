@@ -22,21 +22,9 @@ header .my-0 {
   color: #fff;
 }
 
-nav {
-  overflow: hidden;
-}
-
 nav .text-d {
   text-decoration: none !important;
   color: #fff !important;
-}
-
-nav .text-d:hover {
-  border: solid 1px white;
-}
-
-nav .box-color {
-  background-color: rgba(242, 165, 173, 0.685) !important;
 }
 
 footer {

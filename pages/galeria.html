@@ -21,16 +21,21 @@
 
 <body>
 
-    <header> <!--Menú-->
-        <div class="navegador d-flex flex-column flex-md-row align-items-center p-3 px-md-4">
-            <a class="logoHome my-0 mr-md-auto font-weight-normal" href="../index.html">SugarGlass Pastelería</a>
-                <nav class="my-2 my-md-0 mr-md-3">
-                    <a class="p-2 text-d" href="../index.html">INICIO</a>
-                    <a class="p-2 text-d" href="./recetas.html">RECETAS</a>
-                    <a class="p-2 text-d" href="./galeria.html">PORTAFOLIO</a>
-                    <a class="p-2 text-d" href="./formulario.html">CONTACTO</a>                    
-                </nav>
-        </div>
+    <header> 
+        <!--Inicio del Nav-->  
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="logoHome navbar-brand" href="../index.html">SugarGlass Pastelería</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link p-2 text-d" href="../index.html">INICIO</a>
+                <a class="nav-link p-2 text-d" href="./recetas.html">RECETAS</a>
+                <a class="nav-link p-2 text-d" href="./formulario.html">CONTACTO</a>
+            </div>
+            </div>
+        </nav>
     </header>
 
     <!--Inicio del Banner-->
@@ -111,41 +116,47 @@
 
     </section>
 
-
-    <!-- Footer -->
-    <footer class="footer">
-
-        <div class="d-flex justify-content-center bd-highlight mb-3 text-center">
-            <div class="col-6 flex-fill justify-content-center">
-                <ul class="social">
-                    <li class="l-social">
-                        <a href="https://www.instagram.com/sugarglass/"><i class="bi bi-instagram"></i></a>
-                    </li>
-                    <li class="l-social">
-                        <a href="https://www.facebook.com/Sugarglasspasteleria"><i class="bi bi-facebook"></i></a>
-                    </li>
-                    <li class="l-social">
-                        <a href="https://wa.link/gviqww"><i class="bi bi-whatsapp"></i></a>
-                    </li>
-                </ul>
-
-                <h5 class="text-uppercase">HORARIO DE ATENCIÓN</h5>
-                <p>Lunes a Sábado 09:00 a 19:30 hrs</p>
     
-            </div>
-            <div class="col-6 flex-fill">
-                <!-- Content -->
-                <h5 class="text-m-top text-uppercase">DONDE ESTAMOS UBICADOS</h5>
-                <p>Almagro, Ciudad Autónoma de Buenos Aires, Argentina</p>
-                <h5>E-Mail</h5>
-                <a class="mail" href="mailto:sugarglassreposteria@gmail.com">sugarglassreposteria@gmail.com</a>
-            </div>
-        </div>
+    <footer class="bg-foot text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/Sugarglasspasteleria" target="_blank" role="button"
+            ><i class="bi bi-facebook"></i
+            ></a>
+    
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/sugarglass/" target="_blank" role="button"
+            ><i class="bi bi-instagram"></i
+            ></a>
+    
+            <!-- WhatsApp -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://wa.link/gviqww" target="_blank" role="button"
+            ><i class="bi bi-whatsapp"></i
+            ></a>
 
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-2">© 2021 Copyright
-            <h6>Coded with Love by <a href="https://www.linkedin.com/in/lindaperezr/" target="_blank">Linda Pérez</a></h6>
+            <!-- Mail -->
+            <a class="btn btn-outline-light btn-floating m-1" href="mailto:sugarglassreposteria@gmail.com" role="button"
+            ><i class="bi bi-envelope"></i
+            ></a>
+
+            <!-- Maps -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://goo.gl/maps/JrEhaH8PBpPHthYDA" target="_blank" role="button"
+            ><i class="bi bi-geo-alt-fill"></i></i
+            ></a>
+
+        <!-- Section: Social media -->
         </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2021 Copyright | 
+        Coded with Love by <a class="text-white" href="https://www.linkedin.com/in/lindaperezr/" target="_blank">Linda Pérez</a>
+        </div>
+        <!-- Copyright -->
     </footer>
 
     <!-- Latest compiled and minified CSS -->
