@@ -43,7 +43,6 @@ main{
 
 .animate__heartBeat:hover{
     animation: 0.1s;
-    
 }
 
 .p-2{
@@ -91,6 +90,7 @@ main{
     animation: jump 1s;
     transform: translateY(0);
 }                                              
+
 @keyframes jump{
     0%{
         transform: translateY(0);
@@ -205,7 +205,6 @@ main{
     .navbar-toggler{
         background-color:#fff !important;
     }
-
 }
 
  /* Dispositivos pequeños (Tablets Verticales, celulares grandes, 600px y más) */
@@ -259,8 +258,6 @@ main{
     .navbar-toggler{
         background-color:#fff !important;
     }
-
-
 }
 
 
@@ -297,7 +294,6 @@ main{
         background-color:#fff !important;
     }
     
-
 }
 
  /* Dispositivos grandes (laptops / computadoras de escritorio 992px y más) */
@@ -315,7 +311,6 @@ main{
     .tituloReceta__padding{
         padding: 15px 0 20px 0;
     }
-
 }
 
  /* Dispositivos extra grandes (computadoras portátiles y de escritorio grandes, 1200px y más) */
